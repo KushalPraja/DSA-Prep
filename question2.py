@@ -5,7 +5,6 @@ def contains_duplicate(nums):
           return True
     return False
 
-
 # Example usage
 if __name__ == "__main__":
   test_array = [1, 2, 3, 1]

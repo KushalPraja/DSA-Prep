@@ -1,8 +1,15 @@
 def two_sum(nums: list[int], target: int) -> list[int]:
-  for i in range(len(nums)):
-    for j in range(i+1,len(nums)):
-      if nums[i]+nums[j]==target:
-        return [i,j]
+  
+  prevMap = {}
+  for i, num in enumerate(nums):
+    prevMap[num]=i
+    diff=target-num # 9-2=7
+    if diff in prevMap and prevMap[diff]!=i:
+      return [prevMap[diff],i]
+  
+
+
+
   return []
 
 # Test cases

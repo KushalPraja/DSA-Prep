@@ -5,30 +5,6 @@ def two_sum(nums: list[int], target: int) -> list[int]:
         return [i,j]
   return []
 
-// done
-
-
-  """
-  Given an array of integers nums and an integer target,
-  return indices of the two numbers in nums such that they add up to target.
-  
-  You may assume that each input would have exactly one solution,
-  and you may not use the same element twice.
-  
-  Args:
-    nums: List of integers
-    target: Target sum
-  Returns:
-    List containing two indices whose corresponding values sum to target
-  
-  Example:
-    Input: nums = [2,7,11,15], target = 9
-    Output: [0,1]
-    Explanation: nums[0] + nums[1] == 9, so we return [0, 1]
-  """
-  # TODO: Implement the solution here
-  pass
-
 # Test cases
 test_nums = [2, 7, 11, 15]
 test_target = 9

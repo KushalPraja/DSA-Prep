@@ -19,8 +19,6 @@ def product_except_self(nums):
   for i in range(len(nums)):
     product[i]=prefix_product
     prefix_product*=nums[i]
-
-
   # suffix product
 
   suffix_product=1
